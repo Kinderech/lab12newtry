@@ -1,0 +1,26 @@
+@page "{id:Guid}"
+@model lab12newtry.Pages.Nurses.Edit
+
+@{
+    
+}
+<a href="/Nurses/List" class="btn btn-dark">Назад к списку</a>
+<h1 class="mb-3">Редактирование младшего сотрудника</h1>
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">ФИО</label>
+        <input type="text" class="form-control" asp-for="ViewModel.Name"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Дата рождения</label>
+        <input type="date" class="form-control" asp-for="ViewModel.DateOfBirth"/>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary" asp-page-handler="Update">
+            Обновить
+        </button>
+        <button type="submit" class="btn btn-danger" asp-page-handler="Delete">
+                    Удалить
+        </button>
+    </div>
+</form>

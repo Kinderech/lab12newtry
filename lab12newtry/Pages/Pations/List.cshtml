@@ -1,0 +1,39 @@
+@page
+@model lab12newtry.Pages.Pations.List
+
+@{
+    
+}
+<a href="/" class="btn btn-dark">Назад</a>
+<h1 class="mb-3">Список пациентов</h1>
+@if (Model.Pations != null && Model.Pations.Any())
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>ФИО</th>
+            <th>Доктор</th>
+            <th> </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var pation in Model.Pations)
+        {
+            <tr>
+                <td>@pation.Id</td>
+                <td>@pation.Name</td>
+                <td>@pation.Doctor</td>
+                <td>
+                    <a href="/Pations/Edit/@pation.Id" class="btn btn-dark">Изменить</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Пациентов нет</p>
+}
+<a href="/Pations/Add" class="btn btn-dark">Добавить</a>

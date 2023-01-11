@@ -1,0 +1,31 @@
+@page "{id:Guid}"
+@model lab12newtry.Pages.Pations.Edit
+
+@{
+    
+}
+
+<h1 class="mb-3">Редактирование пациента</h1>
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">ФИО</label>
+        <input type="text" class="form-control" asp-for="EditPationViewModel.Name"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Доктор</label>
+        <input type="text" class="form-control" asp-for="EditPationViewModel.Doctor"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Дата рождения</label>
+        <input type="date" class="form-control" asp-for="EditPationViewModel.DateOfBirth"/>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary" asp-page-handler="Update">
+            Обновить
+        </button>
+        <button type="submit" class="btn btn-danger" asp-page-handler="Delete">
+                            Удалить
+                </button>
+    </div>
+</form>
+<a href="/Pations/List" class="btn btn-dark">Назад к списку</a>

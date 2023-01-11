@@ -1,0 +1,21 @@
+@page
+@model lab12newtry.Pages.Doctors.Add
+
+@{   }
+
+<a href="/Doctors/List" class="btn btn-dark">Отменить</a>
+<form method="post">
+    <h1 class="mb-3">Добавить врача</h1>
+
+    <div class="mb-3">
+        <label class="form-label">ФИО</label>
+        <input type="text" class="form-control" asp-for="ViewModel.Name"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Дата рождения</label>
+        <input type="date" class="form-control" asp-for="ViewModel.DateOfBirth"/>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </div>
+</form>

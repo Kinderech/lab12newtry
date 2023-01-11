@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lab12newtry
+build_property.RootNamespace = lab12newtry
+build_property.ProjectDir = /Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Doctors/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Doctors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Doctors/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Nurses/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTnVyc2VzL0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Nurses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTnVyc2VzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Nurses/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTnVyc2VzL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Pations/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF0aW9ucy9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Pations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF0aW9ucy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Pations/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF0aW9ucy9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/arinacherednik/RiderProjects/BMSTU/lab12newtry/lab12newtry/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ip8g20lr34

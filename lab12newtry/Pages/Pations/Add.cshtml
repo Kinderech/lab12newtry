@@ -1,0 +1,25 @@
+@page
+@model lab12newtry.Pages.Pations.Add
+
+@{   }
+
+<a href="/Pations/List" class="btn btn-dark">Назад</a>
+<form method="post">
+    <h1 class="mb-3">Добавить нового пациента</h1>
+
+    <div class="mb-3">
+        <label class="form-label">ФИО</label>
+        <input type="text" class="form-control" asp-for="AddPationRequest.Name"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Доктор</label>
+        <input type="text" class="form-control" asp-for="AddPationRequest.Doctor"/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Дата рождения</label>
+        <input type="date" class="form-control" asp-for="AddPationRequest.DateOfBirth"/>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </div>
+</form>

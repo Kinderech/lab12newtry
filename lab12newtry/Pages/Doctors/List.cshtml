@@ -1,0 +1,39 @@
+@page
+@model lab12newtry.Pages.Doctors.List
+
+@{
+    
+}
+
+<a href="/" class="btn btn-dark">Назад</a>
+<h1 class="mb-3">Список врачей</h1>
+@if (Model.Doctors != null && Model.Doctors.Any())
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>ФИО</th>
+            <th>Доктор</th>
+            <th> </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var doc in Model.Doctors)
+        {
+            <tr>
+                <td>@doc.Id</td>
+                <td>@doc.Name</td>
+                <td>
+                    <a href="/Doctors/Edit/@doc.Id" class="btn btn-dark">Изменить</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Врачей нет</p>
+}
+<a href="/Doctors/Add" class="btn btn-dark">Добавить</a>
